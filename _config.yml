@@ -2,3 +2,4 @@ title: MIT Libraries Developer Documentation
 
 gems:
   - jemoji
+  - jekyll-feed
