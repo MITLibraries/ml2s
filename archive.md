@@ -1,7 +1,8 @@
+# Archive
+
 <nav>
   <ul>
   {% for post in site.posts limit:10 %}
-    <li{% if post.url contains node.url %} class="active"{% endif %}>
       <a href="{{ post.url }}">
         {% if post.link %}
           {{ post.link }}
@@ -11,8 +12,5 @@
       </a>
     </li>
   {% endfor %}
-  <li>
-    <a href="/archive.md">Archive</a>
-  </li>
   </ul>
 </nav>
