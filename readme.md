@@ -8,7 +8,7 @@ permalink: /
 
 Welcome to the MIT Libraries Data Mining Fan Club site.
 
-The goal of this site is to share the things we learn as we explore
+The goal of this blog is to share the things we learn as we explore
 applications of data mining, machine learning, and related techniques in the
 Libraries.
 
