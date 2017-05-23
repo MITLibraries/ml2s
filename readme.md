@@ -4,17 +4,16 @@ link: 'Home'
 permalink: /
 ---
 
-# MIT Libraries Developer Documentation
+# Data Mining Fan Club
 
-Welcome to the MIT Libraries Developer Documentation site.
+Welcome to the MIT Libraries Data Mining Fan Club site.
 
-While this site is public and you are welcome to use it, our main goals are
-internally facing. That said, feel free to open an Issue if you have suggestions
-or feedback.
+The goal of this site is to share the things we learn as we explore
+applications of data mining, machine learning, and related techniques in the
+Libraries.
 
-## Side Nav Ordering
-Page metadata should include `order: 1000` if you want your Page to
-be included in the sidenav in alphabetical order. The readme uses
-`order: 1` to pop to the top of that list. If you have reason to put
-put your page in the sidenav in a different spot, you can use an
-appropriate `order: value` to do so.
+We also will be running regular open meetings; stay tuned for details.
+
+Want to add a post to this blog?
+* Get edit permissions to the repo from anyone in DLAD if you don't have them yet
+* Create a Markdown file in the `_posts/`directory with a title of the format `year-month-day-title.md`.
