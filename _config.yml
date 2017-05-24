@@ -1,10 +1,12 @@
 title: MIT Libraries Data Mining Fan Club
 
+baseurl: /data-mining-fan-club
+
 gems:
   - jemoji
   - jekyll-feed
 
 authors:
-  andromeda
+  andromeda:
     name: Andromeda Yelton
     github: thatandromeda

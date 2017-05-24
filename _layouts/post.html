@@ -1,13 +1,16 @@
 ---
 layout: default
-___
+---
+
 <h1>{{ page.title }}</h1>
 
 <article role="main" class="blog-post">
   {{ content }}
 </article>
 
+{% assign author = site.authors[page.author] %}
 <div class="byline">
-  <b>{{ author.name }}</b> &mdash; <a href="{{ page.post_url }}">{{ page.date }}</a><br />
-  <a href="https://github.com/{{ author.github }}">{{ author.github }}</a>
+  <i class="fa fa-link" aria-hidden="true"></i> <a href="{{ page.post_url }}">{{ page.date | date: ''%-d %B %Y' }}</a><br />
+  <b><i class="fa fa-user" aria-hidden="true"></i> {{ author.name }}</b><br />
+  <i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/{{ page.author.github }}">{{ author.github }}</a>
 </div>

@@ -1,9 +1,9 @@
-<h2>Previous Posts</h2>
+<h2>Latest Posts</h2>
 <nav>
   <ul>
   {% for post in site.posts limit:10 %}
     <li{% if post.url contains node.url %} class="active"{% endif %}>
-      <a href="{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}">
         {% if post.link %}
           {{ post.link }}
         {% else %}
@@ -12,8 +12,7 @@
       </a>
     </li>
   {% endfor %}
-  <li>
-    <a href="/archive">Archive</a>
-  </li>
   </ul>
+  <hr />
+  <a href="{{ site.baseurl }}/archive">Archive</a>
 </nav>
