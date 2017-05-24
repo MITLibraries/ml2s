@@ -3,3 +3,8 @@ title: MIT Libraries Data Mining Fan Club
 gems:
   - jemoji
   - jekyll-feed
+
+authors:
+  andromeda
+    name: Andromeda Yelton
+    github: thatandromeda

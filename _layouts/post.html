@@ -1,0 +1,13 @@
+---
+layout: default
+___
+<h1>{{ page.title }}</h1>
+
+<article role="main" class="blog-post">
+  {{ content }}
+</article>
+
+<div class="byline">
+  <b>{{ author.name }}</b> &mdash; <a href="{{ page.post_url }}">{{ page.date }}</a><br />
+  <a href="https://github.com/{{ author.github }}">{{ author.github }}</a>
+</div>

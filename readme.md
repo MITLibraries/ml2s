@@ -16,4 +16,14 @@ We also will be running regular open meetings; stay tuned for details.
 
 Want to add a post to this blog?
 * Get edit permissions to the repo from anyone in DLAD if you don't have them yet
+* Before your first post, add yourself to the `authors` section of `_config.yaml`, following the existing example(s).
 * Create a Markdown file in the `_posts/`directory with a title of the format `year-month-day-title.md`.
+  * It should have front matter that looks like this:
+
+```
+---
+author: < the label for you in _config.yaml >
+---
+```
+
+It will automatically use the `post` layout. You may add a `title: < whatever >` if you want to override the title deduced from the filename.
