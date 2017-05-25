@@ -7,16 +7,10 @@ layout: default
 <nav>
   <ul>
   {% for post in site.posts limit:10 %}
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {% if post.link %}
-          {{ post.link }}
-        {% else %}
-          {{ post.title }}
-        {% endif %}
-      </a>
-      <div class="byline">
-        {{ post.author.name }} &mdash; {{ post.date }}
-      </div>
+    <li>
+      {% assign author = site.authors[post.author] %}
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      &mdash; {{ author.name }} ({{ post.date }})
     </li>
   {% endfor %}
   </ul>
