@@ -4,7 +4,7 @@ link: 'Home'
 permalink: /
 ---
 
-# (ML)^2S
+# (ML)<sup>2</sup>S
 
 Welcome to the MIT Libraries Machine Learning Studio site.
 
