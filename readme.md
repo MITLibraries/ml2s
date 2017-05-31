@@ -4,9 +4,9 @@ link: 'Home'
 permalink: /
 ---
 
-# Data Mining Fan Club
+# (ML)^2S
 
-Welcome to the MIT Libraries Data Mining Fan Club site.
+Welcome to the MIT Libraries Machine Learning Studio site.
 
 The goal of this blog is to share the things we learn as we explore
 applications of data mining, machine learning, and related techniques in the
