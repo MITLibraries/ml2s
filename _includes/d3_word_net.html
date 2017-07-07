@@ -16,7 +16,7 @@ d3.json('{{ include.datafile }}', function(error, graph) {
 
   var color = d3.scaleLinear().domain([graph.threshold, maxLinkWeight])
       .interpolate(d3.interpolateHcl)
-      .range([d3.rgb("#21759B"), d3.rgb('#dedede')]);
+      .range([d3.rgb('#dedede'), d3.rgb("#21759B")]);
 
   var link_{{ include.svg_id }} = {{ include.svg_id }}.append("g")
     .attr("class", "links")
