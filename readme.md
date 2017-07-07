@@ -23,6 +23,9 @@ Want to add a post to this blog?
 * Before your first post, add yourself to the `authors` section of `_config.yaml`, following the existing example(s).
 * Create a Markdown file in the `_posts/`directory with a title of the format `year-month-day-title.md`.
   * It should have front matter that looks like this:
+* If you're trying fancy things with Jekyll and you want to see them on localhost before pushing:
+  * Install Jekyll: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+  * Run it with `bundle exec jekyll serve --baseurl=''`
 
 ```
 ---

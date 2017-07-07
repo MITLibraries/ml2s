@@ -1,0 +1,11 @@
+.links line {
+  stroke-opacity: 1;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+circle title {
+  font-size: 16px;
+}
