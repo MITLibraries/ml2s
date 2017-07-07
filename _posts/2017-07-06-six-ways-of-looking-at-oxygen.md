@@ -36,7 +36,9 @@ So I asked the corpus, ingesting other departments' theses and probing the area 
   {% include d3_word_net.html svg_id='svg_chemistry' datafile=datafile %}
 </script>
 
-If your whole world is chemistry, "oxygen" is like "nitrogen" and "chlorine"..."oxygen" is an element. (And a highly reactive one, at that!)
+If your whole world is chemistry, "oxygen" is like "nitrogen" and "chlorine"..."oxygen" is an element. And a highly reactive one, at that!
+
+(Side note: it's also quite similar to "02", which is a clear OCR error for "O2"...but at least this means the neural net picked up that molecular and atomic oxygen are quite similar.)
 
 ## Biology
 
