@@ -1,7 +1,6 @@
 ---
 author: andromeda
 ---
-
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
 [In a previous post]({{ site.baseurl }}{% post_url 2017-05-24-hello-gensim %}
@@ -19,7 +18,7 @@ Here's what oxygen looks like if everything you know about the world is AeroAstr
   {% include d3_word_net.html svg_id='svg_aeroastro' datafile=datafile %}
 </script>
 
-Here, links indicate similarity of meaning; words are linked if their similarity is above a certain threshold and more intensely colored links show greater similarity. We proceed a couple of hops out from "oxygen" to illustrate its neighborhood. We can see that "oxygen" is similar in meaning to 'hydrogen' and 'water'...and 'propellant'...and ['hypergolic'](https://www.merriam-webster.com/dictionary/hypergolic)...
+Here, links indicate similarity of meaning. Words are linked if their similarity is above a certain threshold (which varies per graph &mdash; always above 0.45, below which there doens't seem subjectively to be any meaning similarity, but sometimes higher to make the graph readable by limiting the number of nodes). More intensely colored links show greater similarity. We proceed a couple of hops out from "oxygen" to illustrate its neighborhood. We can see that "oxygen" is similar in meaning to 'hydrogen' and 'water'...and 'propellant'...and ['hypergolic'](https://www.merriam-webster.com/dictionary/hypergolic)...
 
 If all we know about the world is AeroAstro, oxygen is rocket fuel.
 
@@ -92,4 +91,4 @@ As with nuclear engineering, I don't have the domain knowledge to interpret this
 Thanks go to:
 * Christine Moulen, as mentioned above;
 * My other colleague Helen Bailey, for writing the first version of the d3 scripts used here (I don't know a thing about datavis and this is my first d3 so it was great having her scripts to crib off of);
-* Wallace Stevens, for [Thirteen Ways of Looking at a Blackbird](https://www.poetryfoundation.org/poems/45236/thirteen-ways-of-looking-at-a-blackbird), and Henry Louis Gates, for bringing that poem and other things to my attention via [Thirteen Ways of Looking at a Black Man](https://www.amazon.com/Thirteen-Ways-Looking-Black-Man/dp/0679776664)
+* Wallace Stevens, for [Thirteen Ways of Looking at a Blackbird](https://www.poetryfoundation.org/poems/45236/thirteen-ways-of-looking-at-a-blackbird), and Henry Louis Gates, for bringing that poem and other things to my attention via [Thirteen Ways of Looking at a Black Man](https://www.amazon.com/Thirteen-Ways-Looking-Black-Man/dp/0679776664).

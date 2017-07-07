@@ -53,10 +53,11 @@ d3.json('{{ include.datafile }}', function(error, graph) {
 
   node_{{ include.svg_id }}.append("text")
       .attr("fill", "#111")
-      .attr("dx", function(d) { return -d.weight; })
-      .attr("dy", ".5em")
+      .attr("dx", "-10px")
+      .attr("dy", "5px")
       .attr('z-index', '10')
       .attr('height', '12px')
+      .attr('font-weight', '500')
       .text(function(d) { return d.id });
 
   simulation_{{ include.svg_id }}
