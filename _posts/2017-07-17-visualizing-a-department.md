@@ -5,6 +5,8 @@ In my last blog post, I talked about exploring concept clusters based on differe
 
 Visualizing an entire thesis corpus is harder than visualizing the local network around a word, because many of our departments have produced thousands of theses over the years (and also because I know approximately nothing about data visualization and d3). So what I've done here is process the aero-astro department down into subgraphs, where everything in the subgraph is related to at least one other subgraph node by at least a threshold amount. Then we can explore subgraphs of more manageable size, and finally start to see what clusters of related *documents* might emerge.
 
+What do you think the labels for these clusters should be?
+
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
 <div class="bit">
@@ -16,8 +18,6 @@ Visualizing an entire thesis corpus is harder than visualizing the local network
 </div>
 
 <svg width="960" height="760" font-family="sans-serif" font-size="10" text-anchor="middle" id="subgraph"></svg>
-
-So, something's weird about the visualization here - the number of subgraph data files I've generated don't seem to match with the overview in big_picture.json, and the number of nodes visible on screen don't seem to match those in the data subgraph files. But at the same time the *meaning* of the visualization seems roughly correct. Not sure what's going on with that but running short on debugging time today. Pull requests welcome at [mundaneum](https://github.com/MITLibraries/mundaneum).
 
 {% capture datafile %}{{ site.url }}{{ site.baseurl }}/data/subgraphs/aeroastro/big_picture.json{% endcapture %}
 
