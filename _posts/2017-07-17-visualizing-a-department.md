@@ -15,7 +15,7 @@ Visualizing an entire thesis corpus is harder than visualizing the local network
 <div id="key" class="bit" style="display:none;">
 </div>
 
-<svg width="960" height="960" font-family="sans-serif" font-size="10" text-anchor="middle" id="subgraph"></svg>
+<svg width="960" height="760" font-family="sans-serif" font-size="10" text-anchor="middle" id="subgraph"></svg>
 
 So, something's weird about the visualization here - the number of subgraph data files I've generated don't seem to match with the overview in big_picture.json, and the number of nodes visible on screen don't seem to match those in the data subgraph files. But at the same time the *meaning* of the visualization seems roughly correct. Not sure what's going on with that but running short on debugging time today. Pull requests welcome at [mundaneum](https://github.com/MITLibraries/mundaneum).
 
